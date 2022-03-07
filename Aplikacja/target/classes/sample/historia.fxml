@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="549.0" prefWidth="946.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HistoriaController">
+   <children>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="66.0" prefHeight="50.0" prefWidth="946.0" text="Historia zakupów">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label fx:id="text" alignment="CENTER" layoutY="176.0" prefHeight="17.0" prefWidth="946.0" text="Label">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+
+      <Button layoutX="440.0" layoutY="482.0" mnemonicParsing="false" onAction="#back" text="Wróć">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="138.0" layoutY="316.0" mnemonicParsing="false" onAction="#left" text="&lt;&lt;&lt;" />
+      <Button layoutX="767.0" layoutY="316.0" mnemonicParsing="false" onAction="#right" text="&gt;&gt;&gt;" />
+      <TableView fx:id="tabelaKupione" layoutX="209.0" layoutY="229.0" prefHeight="200.0" prefWidth="529.0">
+         <columns>
+            <TableColumn prefWidth="118.0" text="Klient">
+               <cellValueFactory>
+                  <PropertyValueFactory property="klienci_id_kli" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="185.0" text="Id oferty">
+               <cellValueFactory>
+                  <PropertyValueFactory property="oferta_sal_id_ofe" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="225.0" text="Data zakupu" fx:id="dataZakupu" >
+               <cellValueFactory>
+                  <PropertyValueFactory property="data" />
+               </cellValueFactory>
+            </TableColumn>
+         </columns>
+      </TableView>
+      <TableView fx:id="tabelaZamowieniaZr" layoutX="209.0" layoutY="229.0" prefHeight="200.0" prefWidth="529.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="Id">
+               <cellValueFactory>
+                  <PropertyValueFactory property="id_zam_zr" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="141.0" text="Zamówienie">
+               <cellValueFactory>
+                  <PropertyValueFactory property="zamowienia_id_zam" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="89.0" text="Klient">
+               <cellValueFactory>
+                  <PropertyValueFactory property="zamowienia_klienci_id_kli" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn maxWidth="107.0" minWidth="-1.0" prefWidth="107.0" text="Cena">
+               <cellValueFactory>
+                  <PropertyValueFactory property="cena_zamowienia" />
+               </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="116.0" text="Data zrealizowania">
+               <cellValueFactory>
+                  <PropertyValueFactory property="data_zrealizowania" />
+               </cellValueFactory>
+            </TableColumn>
+         </columns>
+      </TableView>
+      <TableView fx:id="tabelaZamowienia" layoutX="209.0" layoutY="229.0" prefHeight="200.0" prefWidth="529.0">
+        <columns>
+           <TableColumn prefWidth="75.0" text="Id">
+              <cellValueFactory>
+                 <PropertyValueFactory property="id_zam" />
+              </cellValueFactory>
+           </TableColumn>
+           <TableColumn prefWidth="75.0" text="Klient">
+              <cellValueFactory>
+                 <PropertyValueFactory property="klienci_id_kli" />
+              </cellValueFactory>
+           </TableColumn>
+           <TableColumn prefWidth="75.0" text="Pojazd">
+              <cellValueFactory>
+                 <PropertyValueFactory property="katalog_poj_id_poj" />
+              </cellValueFactory>
+           </TableColumn>
+           <TableColumn prefWidth="103.0" text="Wyposażenie">
+              <cellValueFactory>
+                 <PropertyValueFactory property="wersje_wyp_id_wyp" />
+              </cellValueFactory>
+           </TableColumn>
+           <TableColumn prefWidth="77.0" text="Silnik">
+              <cellValueFactory>
+                 <PropertyValueFactory property="wersje_sil_id_sil" />
+              </cellValueFactory>
+           </TableColumn>
+           <TableColumn prefWidth="123.0" text="Data zamówienia">
+              <cellValueFactory>
+                 <PropertyValueFactory property="data_zamowienia" />
+              </cellValueFactory>
+           </TableColumn>
+
+
+        </columns>
+      </TableView>
+      <Button layoutX="425.0" layoutY="438.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="96.0" text="Zrealizuj" fx:id="button" onAction="#zrealizuj">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09129EAB-0E2D-B8CC-ABD4-CC19744B7786" name="Wersje_sil">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>0ED4FDE8-1690-B495-8D95-FFBA05BAB053</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_sil" id="0796D3D4-93EB-ED19-E63D-D333904A66F1">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>F26ED21A-2F18-EA13-DCD0-D0D5F290F602</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pojemnosc_silnika" id="80ADE1C6-7A13-FA04-39CE-3A343096B52F">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>354066B6-E282-2B1A-1BCF-D4797CB3A941</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Moc_silnika" id="E7F20897-229C-5565-B8CA-FF281ADBBBCB">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>A40542B2-A182-5AFE-991E-09400F131C90</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rodzaj_skrzyni_biegow" id="8674C352-E6BD-E20B-7448-9D68B6A601AB">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>15C766C9-08BB-2D2F-2174-7F5600CBFE48</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Liczba_cylindrow" id="8970E8F9-9B84-3962-36C4-916004588D1D">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>2D024409-5483-0034-57AB-E6D9D51CE102</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Typ_silnika" id="50EFB9CE-4222-AF99-2CFE-1D777CAF195F">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>4DC52919-B64C-6411-CB0F-EF2BF7C545D2</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rodzaj_napedu" id="4F35F1C5-1ACE-A0B8-DBE9-5BB6915175A2">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>1B656F8B-48C1-B067-01FE-10A43F78A0C5</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Katalog_poj_Id_poj" id="6DD83049-6C70-2896-3143-A4953B2D1C40">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>38176990-9232-A82F-5E87-6F6185ECC8D8</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52A48C0C-8C7C-4D43-50DD-28F1ABE05BC0" referredColumn="2D494443-1318-BCD4-901C-4AD5058A008E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5438D76-A51E-D8A8-D973-8E59FC6F98F6" name="Wersje_sil_PK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>1CA68362-1EF6-E7FA-7CB5-8BC48CD56232</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0796D3D4-93EB-ED19-E63D-D333904A66F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC69ECDC-860F-EE18-BAC0-B911E4D6BD2F" name="Wersje_sil__IDX">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:58:45 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0796D3D4-93EB-ED19-E63D-D333904A66F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF55BCC6-7700-66B4-A983-0C5014F0B0EF" name="Wersje_sil_Katalog_poj_FK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>73EB3A3E-C77D-07EF-A861-240CA0979FD9</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DD83049-6C70-2896-3143-A4953B2D1C40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

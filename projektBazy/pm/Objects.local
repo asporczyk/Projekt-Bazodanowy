@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.ProcessModel>
+   <object objectType="InfoStore" objectID="33963601-2D3B-8B0D-6919-1F465A45064B" name="Sprzedane pojazdy" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="5514454A-AEE5-1EF3-68AD-ACC8F1FF5098" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="634FB91F-88B3-9575-A32A-D12A6BD22B1A" name="Zamowione Pojazdy" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="5514454A-AEE5-1EF3-68AD-ACC8F1FF5098" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="968F24CB-44A3-06C8-86DD-795753DF4BFA" name="Baza Klientów" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="5514454A-AEE5-1EF3-68AD-ACC8F1FF5098" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="E50431B5-ABA9-F9B0-CA24-3ED577438D17" name="Lista Pojazdów" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="5514454A-AEE5-1EF3-68AD-ACC8F1FF5098" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="EC0CF614-052E-554C-324D-1A777A35C61F" name="Zrealizowane Zamowienia" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="5514454A-AEE5-1EF3-68AD-ACC8F1FF5098" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.process.ProcessModel>

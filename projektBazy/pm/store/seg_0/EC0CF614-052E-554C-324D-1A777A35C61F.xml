@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InfoStore class="oracle.dbtools.crest.model.design.process.InfoStore" name="Zrealizowane Zamowienia" directorySegmentName="seg_0" id="EC0CF614-052E-554C-324D-1A777A35C61F">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 15:01:22 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<rdbmsSite>Oracle Database 11g</rdbmsSite>
+<selfDescribing>false</selfDescribing>
+<skipRecords>0</skipRecords>
+<type>RDBMS</type>
+</InfoStore>

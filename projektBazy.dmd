@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="projektBazodanowyV3" id="EC0D7DA9-D6C9-3B8E-8972-00D0C7BE4AB5" version="3.5">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-05 15:31:03 UTC</createdTime>
+<ownerDesignName>projektBazodanowy</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EC0D7DA9-D6C9-3B8E-8972-00D0C7BE4AB5</designId>
+</OSDM_Design>

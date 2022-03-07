@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="Flow_24" directorySegmentName="seg_0" id="DE184E9A-6509-845A-9F6B-BE5DC08AD59B">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-08-04 15:40:56 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<destination>33963601-2D3B-8B0D-6919-1F465A45064B</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>D1E37058-4C08-AA6A-EBA2-FA4ADE13E825</sourceProcessObject>
+<targetProcessObject>33963601-2D3B-8B0D-6919-1F465A45064B</targetProcessObject>
+</Flow>

@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD06C72A-14EA-C8C0-1794-1385ADA0C917" name="Wersje_wyp">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>E13296E7-AFBE-9A77-211C-68B6A46527BA</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_wyp" id="C89A808F-1073-7B03-FF6A-CD374516A79D">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>86A7FBCA-65B3-C668-AFCD-FF58C0C683EC</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kolor_karoseri" id="1CCE43C5-3246-A29C-2823-C0B745377E93">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>FF7094B3-895A-3563-468A-A5846F2BAE97</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Typ_nadwozia" id="AC79E28D-CD98-8773-FA18-232FB00BD699">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>32739DE0-8236-9B7B-10B1-5789692E7327</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rodzaj_foteli" id="F287FAF1-01FB-E9FD-14FF-F6B3BDA7327F">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>59866C4C-B2EC-7EA0-0FD7-218CA43115F4</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kolor_tapicerki" id="47039F9A-9A97-E23A-42D2-DE23A8DD9533">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>E72B5937-AEB3-79E8-F09D-CB85A798438C</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Katalog_poj_Id_poj" id="835653BD-F3FE-9618-F3C7-FE4A4ADE7B80">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>C290DBF8-7D5F-5DC8-6ED7-73BD7ECE9292</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21926905-B857-4AF5-B565-2357B6013A68" referredColumn="AEFD9EFF-CCE1-CE6D-074E-463E40DEE8E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45AAE133-74A7-2DAE-E17B-53353B589D97" name="Wersje_wyp_PK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>001CB98D-6EED-C92E-E250-B3DAF7386FA7</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C89A808F-1073-7B03-FF6A-CD374516A79D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24BA5207-67BE-4C45-FA31-884F788677B9" name="Wersje_wyp__IDX">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:24:04 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C89A808F-1073-7B03-FF6A-CD374516A79D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D65F0BB-7145-ABD1-B398-866551D6C681" name="Wersje_wyp_Katalog_poj_FK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>BDB92EEC-D769-9ECF-6724-048B4553AC91</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="835653BD-F3FE-9618-F3C7-FE4A4ADE7B80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

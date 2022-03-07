@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28A10366-E48C-7AEF-3E3E-977C89D50421" name="Oferta_sal">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 11:54:34 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_ofe" id="2E037CC3-C6BA-C46D-D075-3A985E0D02AB">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 11:54:46 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_poj" id="5D9C0054-B507-5FE9-FBD3-45E4030BA110">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:16:17 UTC</createdTime>
+<generatorID>78AF2C18-277D-0E36-8AD8-E3122B34E623</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<referedAttribute>2DC36771-03A6-6AB0-6EA2-C25F0FAD1524</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_wyp" id="62C74EA4-7492-CEED-59D6-49CBF8C91E79">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:21:17 UTC</createdTime>
+<generatorID>8BE03CED-785D-FFCC-B0B0-7730444F7474</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<referedAttribute>86A7FBCA-65B3-C668-AFCD-FF58C0C683EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_sil" id="B39D609D-7CD0-DA2D-ADAF-803AEC14B74D">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:21:23 UTC</createdTime>
+<generatorID>8FAAABC4-7A95-D493-F436-DF4B72EA58B5</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<referedAttribute>F26ED21A-2F18-EA13-DCD0-D0D5F290F602</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena_w_salonie" id="F430B7BF-E03B-BDFC-4E8B-5C4FD8D928E9">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:24:04 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Klasa" id="5B9E1150-C189-0A4D-C92A-EE9F2B395BA5">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-07 17:09:19 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kupione" id="7B4C4A94-CCC6-48E1-1C54-49A378EF0675">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-08-04 15:34:14 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B047C85-C9CE-6BAE-8BC3-1027A2B72C1C" name="Oferta_salonu PK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 11:55:06 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2E037CC3-C6BA-C46D-D075-3A985E0D02AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

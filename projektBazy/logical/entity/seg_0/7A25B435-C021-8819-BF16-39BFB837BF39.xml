@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A25B435-C021-8819-BF16-39BFB837BF39" name="Klienci">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-05 15:31:54 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_kli" id="3D11EC28-777F-C6B7-C3D3-06C17636AF0E">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-05 15:33:00 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="05C6FDFB-F11E-A38E-E8DA-40DD15472E80">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-05 15:32:17 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="023F50AE-86DA-CE74-F2BA-A49B7B0F5257">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-05 15:32:47 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Miasto" id="400265F8-5AB2-8B44-D4D0-A5DE5D737405">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-05 15:33:53 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="5EF1E248-7744-83E9-2AD3-434F0F83E32F">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 11:45:04 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefon" id="68154C2F-EDF3-7AB6-D6B5-ABF58A824DBE">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 11:45:18 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Haslo" id="F2FBB491-540D-EBE4-8330-C380C7712F24">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:48:48 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Admin" id="EBD81878-FE89-5E54-F1E3-E9558D1655E7">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-08-04 15:28:08 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D806BEE4-73E9-1269-E71B-8FA00F0C5DD6" name="Klienci PK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-05 15:33:45 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D11EC28-777F-C6B7-C3D3-06C17636AF0E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

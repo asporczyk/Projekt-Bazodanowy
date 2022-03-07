@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D75313B5-28BF-1BF1-F3F2-5F10A87CA6B5" name="Katalog_poj">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-05 15:35:00 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="645A8208-60A5-E1DD-84CF-9D58F84ECE59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_poj" id="2DC36771-03A6-6AB0-6EA2-C25F0FAD1524">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-05 15:35:26 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="645A8208-60A5-E1DD-84CF-9D58F84ECE59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Marka" id="9996802B-6FE0-0452-337E-DE326A386185">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-05 15:35:47 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="645A8208-60A5-E1DD-84CF-9D58F84ECE59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Model" id="5AB45D75-850E-0275-FDD1-8C51538856EC">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-05 15:35:57 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="645A8208-60A5-E1DD-84CF-9D58F84ECE59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rok_produkcji" id="F70CFC74-AAEA-08C5-3630-7DC526D11163">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-05 15:36:09 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="645A8208-60A5-E1DD-84CF-9D58F84ECE59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8850166A-B63F-A749-2CF3-43E2BE3AB86B" name="Katalog_pojazdow PK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-05 15:35:31 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="645A8208-60A5-E1DD-84CF-9D58F84ECE59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2DC36771-03A6-6AB0-6EA2-C25F0FAD1524</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

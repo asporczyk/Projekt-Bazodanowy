@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0ED16135-415A-E167-4318-427B85B664DB" name="Klienci">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>7A25B435-C021-8819-BF16-39BFB837BF39</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_kli" id="313FE2F2-6E9C-0A65-198C-C5B5C8DD1277">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>3D11EC28-777F-C6B7-C3D3-06C17636AF0E</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="A94A6C96-D488-0F12-74DD-2F6C7D34C495">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>05C6FDFB-F11E-A38E-E8DA-40DD15472E80</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="32E09008-81D9-B660-170E-8F9B479E8808">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>023F50AE-86DA-CE74-F2BA-A49B7B0F5257</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miasto" id="F2B2D26D-A539-862B-6848-3AD8B56C570B">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>400265F8-5AB2-8B44-D4D0-A5DE5D737405</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="CEA3AAB8-0CB0-2211-AB54-00A2E22BAEA1">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>5EF1E248-7744-83E9-2AD3-434F0F83E32F</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefon" id="CA644EB1-3C01-1667-7F7F-A308F1F16E60">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>68154C2F-EDF3-7AB6-D6B5-ABF58A824DBE</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Haslo" id="577FBBF9-824F-3E21-5A1A-238DB28DE374">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>F2FBB491-540D-EBE4-8330-C380C7712F24</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Admin" id="6250713B-4706-1441-BC69-1FAD657A8002">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-08-04 15:29:14 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AAAF312-B843-68A1-56FF-4C36714A7F87" name="Klienci_PK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>D806BEE4-73E9-1269-E71B-8FA00F0C5DD6</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="313FE2F2-6E9C-0A65-198C-C5B5C8DD1277"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4CAC188-9E26-8349-5350-57CBC4D89E48" name="Klienci__UN">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:23:23 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEA3AAB8-0CB0-2211-AB54-00A2E22BAEA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="346F1E5B-6878-DDC8-2FCF-450740A99A36" name="Klienci__IDX">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:23:05 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="313FE2F2-6E9C-0A65-198C-C5B5C8DD1277"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0778D0C9-EFD5-B01B-3FB0-D0B2EF497699" name="Klienci__IDXv1">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:23:12 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A94A6C96-D488-0F12-74DD-2F6C7D34C495"/>
+<colUsage columnID="32E09008-81D9-B660-170E-8F9B479E8808"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E13296E7-AFBE-9A77-211C-68B6A46527BA" name="Wersje_wyp">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 11:58:33 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="645A8208-60A5-E1DD-84CF-9D58F84ECE59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_wyp" id="86A7FBCA-65B3-C668-AFCD-FF58C0C683EC">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 11:58:42 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="645A8208-60A5-E1DD-84CF-9D58F84ECE59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kolor_karoseri" id="FF7094B3-895A-3563-468A-A5846F2BAE97">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 11:58:53 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="645A8208-60A5-E1DD-84CF-9D58F84ECE59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Typ_nadwozia" id="32739DE0-8236-9B7B-10B1-5789692E7327">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 11:59:19 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="645A8208-60A5-E1DD-84CF-9D58F84ECE59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rodzaj_foteli" id="59866C4C-B2EC-7EA0-0FD7-218CA43115F4">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:28:32 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="645A8208-60A5-E1DD-84CF-9D58F84ECE59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kolor_tapicerki" id="E72B5937-AEB3-79E8-F09D-CB85A798438C">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:28:55 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="645A8208-60A5-E1DD-84CF-9D58F84ECE59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_poj" id="C290DBF8-7D5F-5DC8-6ED7-73BD7ECE9292">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:26:26 UTC</createdTime>
+<generatorID>BDB92EEC-D769-9ECF-6724-048B4553AC91</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="645A8208-60A5-E1DD-84CF-9D58F84ECE59" value="true"/>
+</engineerTo>
+<referedAttribute>2DC36771-03A6-6AB0-6EA2-C25F0FAD1524</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="001CB98D-6EED-C92E-E250-B3DAF7386FA7" name="Wersje_wyposazenia PK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 11:58:51 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="645A8208-60A5-E1DD-84CF-9D58F84ECE59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86A7FBCA-65B3-C668-AFCD-FF58C0C683EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

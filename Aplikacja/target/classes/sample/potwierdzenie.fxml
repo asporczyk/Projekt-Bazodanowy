@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="549.0" prefWidth="946.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PotwierdzenieController">
+   <children>
+      <Label alignment="CENTER" layoutX="1.0" layoutY="50.0" prefHeight="17.0" prefWidth="946.0" text="Dziękujemy">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Label fx:id="text" alignment="CENTER" layoutY="213.0" prefHeight="45.0" prefWidth="946.0" text="Zakup został zrealizowany pomyślnie.">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="text2" alignment="CENTER" layoutY="258.0" prefHeight="34.0" prefWidth="946.0" text="Pojazd zostanie dostarczony do Twojego garażu.">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="414.0" layoutY="437.0" mnemonicParsing="false" onAction="#ok" prefHeight="48.0" prefWidth="118.0" text="OK">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

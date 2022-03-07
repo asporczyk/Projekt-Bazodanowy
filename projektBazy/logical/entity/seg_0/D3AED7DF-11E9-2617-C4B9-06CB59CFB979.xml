@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3AED7DF-11E9-2617-C4B9-06CB59CFB979" name="Zamowienia">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 11:52:35 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_zam" id="8C663B1A-81E3-6392-0BFA-F4F92290B2D8">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 11:55:11 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_kli" id="C1D67B9A-5C26-C7EF-32EA-D64B931BDE4E">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:07:14 UTC</createdTime>
+<generatorID>F9F2ECCE-AAC6-3691-6CE2-7616FF6A7099</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<referedAttribute>3D11EC28-777F-C6B7-C3D3-06C17636AF0E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_poj" id="9EA1EDF7-8081-5491-CA97-A846F457ACFD">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:17:20 UTC</createdTime>
+<generatorID>F9B04DA8-5169-0A77-FDA2-7D82FEA4C359</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<referedAttribute>2DC36771-03A6-6AB0-6EA2-C25F0FAD1524</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_wyp" id="5B6972E3-751A-1FE3-4C96-78AE60EBF828">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:20:01 UTC</createdTime>
+<generatorID>3381FEF6-68A5-4EFA-B4BB-E97E36A63929</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<referedAttribute>86A7FBCA-65B3-C668-AFCD-FF58C0C683EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_sil" id="FED02995-BD0C-F50D-0645-8A0B0402B1E3">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:20:07 UTC</createdTime>
+<generatorID>35B094A5-F6FF-6DB0-690C-37F317E6B886</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<referedAttribute>F26ED21A-2F18-EA13-DCD0-D0D5F290F602</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_zamowienia" id="833345A0-345F-67FB-4476-6190A4A9411C">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:20:36 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zrealizowano" id="A6FEF6EF-39A1-0D6D-6352-7387451360BF">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-08-04 15:35:38 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B706F9FF-4C99-FBF2-83BC-BB45438D8B24" name="Zamowione pojazdy PK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 11:55:19 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="9CFB96B7-825C-E8C5-06D2-A35259171BB4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C663B1A-81E3-6392-0BFA-F4F92290B2D8</attributeRef>
+<attributeRef>C1D67B9A-5C26-C7EF-32EA-D64B931BDE4E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

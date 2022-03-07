@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zamowienie_zrealizowane" directorySegmentName="seg_0" id="245C01BC-DD5A-89EB-9E01-C85CA481A2F8">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:26:54 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="1C92233C-D8F6-1916-41F2-9C0C501EC305" value="true"/>
+</engineerTo>
+<sourcePk>B706F9FF-4C99-FBF2-83BC-BB45438D8B24</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D3AED7DF-11E9-2617-C4B9-06CB59CFB979</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2F993FA4-8D21-D7D3-C060-34C7DE2AA861</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

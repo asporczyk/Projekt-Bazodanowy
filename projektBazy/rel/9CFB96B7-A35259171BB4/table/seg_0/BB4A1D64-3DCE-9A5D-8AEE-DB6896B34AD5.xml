@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB4A1D64-3DCE-9A5D-8AEE-DB6896B34AD5" name="Oferta_sal">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>28A10366-E48C-7AEF-3E3E-977C89D50421</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_ofe" id="E0BC160E-C7BF-F36A-438D-198B5B5D235B">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>2E037CC3-C6BA-C46D-D075-3A985E0D02AB</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Katalog_poj_Id_poj" id="88BB666F-A622-6F01-C2E6-82209DE57F19">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>5D9C0054-B507-5FE9-FBD3-45E4030BA110</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="879D9068-107E-525C-66E7-C0FCB8CFA526" referredColumn="AEFD9EFF-CCE1-CE6D-074E-463E40DEE8E7"/>
+</associations>
+</Column>
+<Column name="Wersje_wyp_Id_wyp" id="B7AA8BCB-F28A-AD35-DF95-1C0EEAE95320">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>62C74EA4-7492-CEED-59D6-49CBF8C91E79</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97245718-ECA1-A77F-4964-9E383B227C10" referredColumn="C89A808F-1073-7B03-FF6A-CD374516A79D"/>
+</associations>
+</Column>
+<Column name="Wersje_sil_Id_sil" id="4FA057AC-B026-A773-AA62-81F1ADA3703C">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>B39D609D-7CD0-DA2D-ADAF-803AEC14B74D</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CF3DCCB-5EE6-6145-2BD6-7A46F24AC011" referredColumn="D244882D-501E-F81C-79A1-33C688BAA248"/>
+</associations>
+</Column>
+<Column name="Cena_w_salonie" id="B58DAD8F-178C-7BE3-1260-258084692D02">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>F430B7BF-E03B-BDFC-4E8B-5C4FD8D928E9</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klasa" id="28ED8DA6-90A7-F9C8-CBB5-AA8FAC9D42DE">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>5B9E1150-C189-0A4D-C92A-EE9F2B395BA5</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kupione" id="BD58774C-504D-ABF5-9A12-DEDA3FD67A82">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-08-04 15:34:41 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D32874C7-9A45-3458-8953-CE9B0717F76C" name="Oferta_sal_PK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>1B047C85-C9CE-6BAE-8BC3-1027A2B72C1C</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0BC160E-C7BF-F36A-438D-198B5B5D235B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9BA4998-1EE3-860F-B816-B8C81A04D266" name="Oferta_sal__IDX">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:24:12 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0BC160E-C7BF-F36A-438D-198B5B5D235B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF5A0497-273D-C1BF-A095-3069A32DD5EF" name="Oferta_sal_Katalog_poj_FK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>78AF2C18-277D-0E36-8AD8-E3122B34E623</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88BB666F-A622-6F01-C2E6-82209DE57F19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="966B3BDF-EF44-AFE2-F9A1-2E6EA2F7DF5D" name="Oferta_sal_Wersje_sil_FK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>8FAAABC4-7A95-D493-F436-DF4B72EA58B5</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FA057AC-B026-A773-AA62-81F1ADA3703C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EA0043A-A539-A7A5-F026-77469FF220B8" name="Oferta_sal_Wersje_wyp_FK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-23 11:22:05 UTC</createdTime>
+<generatorID>8BE03CED-785D-FFCC-B0B0-7730444F7474</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7AA8BCB-F28A-AD35-DF95-1C0EEAE95320"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

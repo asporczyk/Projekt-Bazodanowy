@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="549.0" prefWidth="946.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SecondaryController">
+    <children>
+      <Label fx:id="nazwa" prefHeight="30.0" prefWidth="974.0" text="Label">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+        <Label alignment="CENTER" prefHeight="18.0" prefWidth="111.0" text="Wersje silnikowe">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <TableView fx:id="tabelaSilnik" prefHeight="112.0" prefWidth="906.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Id">
+              <cellValueFactory>
+                  <PropertyValueFactory property="id_sil" />
+              </cellValueFactory>
+          </TableColumn>
+            <TableColumn prefWidth="127.0" text="Pojemnosc silnika">
+                <cellValueFactory>
+                    <PropertyValueFactory property="pojemnosc_silnika" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="94.0" text="Moc silnika">
+                <cellValueFactory>
+                    <PropertyValueFactory property="moc_silnika" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="154.0" text="Rodzaj skrzyni biegow">
+                <cellValueFactory>
+                    <PropertyValueFactory property="rodzaj_skrzyni_biegow" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn minWidth="0.0" prefWidth="125.0" text="Liczba cylindrow">
+                <cellValueFactory>
+                    <PropertyValueFactory property="liczba_cylindrow" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="164.0" text="Typ silnika">
+                <cellValueFactory>
+                    <PropertyValueFactory property="typ_silnika" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="139.0" text="Rodzaj napedu">
+                <cellValueFactory>
+                    <PropertyValueFactory property="rodzaj_napedu" />
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" prefHeight="17.0" prefWidth="160.0" text="Wersje wyposażenia">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <TableView fx:id="tabelaWyp" prefHeight="118.0" prefWidth="906.0">
+        <columns>
+            <TableColumn prefWidth="75.0" text="Id">
+                <cellValueFactory>
+                    <PropertyValueFactory property="id_wyp" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="189.0" text="Kolor karoseri">
+                <cellValueFactory>
+                    <PropertyValueFactory property="kolor_karoseri" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="219.0" text="Typ nadwozia">
+                <cellValueFactory>
+                    <PropertyValueFactory property="typ_nadwozia" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="208.0" text="Rodzaje foteli">
+                <cellValueFactory>
+                    <PropertyValueFactory property="rodzaj_foteli" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="191.0" text="Kolor tapicerki">
+                <cellValueFactory>
+                    <PropertyValueFactory property="kolor_tapicerki" />
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" prefHeight="3.0" prefWidth="80.0" text="W salonie">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <TableView fx:id="tabelaSalon" prefHeight="117.0" prefWidth="906.0">
+        <columns>
+            <TableColumn prefWidth="75.0" text="Id">
+                <cellValueFactory>
+                    <PropertyValueFactory property="id_ofe" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="159.0" text="Id pojazdu">
+                <cellValueFactory>
+                    <PropertyValueFactory property="katalog_poj_id_poj" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="142.0" text="Wersja wyposazenia">
+                <cellValueFactory>
+                    <PropertyValueFactory property="wersje_wyp_id_wyp" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="183.0" text="Wersja silnika">
+                <cellValueFactory>
+                    <PropertyValueFactory property="wersje_sil_id_sil" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="177.0" text="Cena w salonie">
+                <cellValueFactory>
+                    <PropertyValueFactory property="cena_w_salonie" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="142.0" text="Klasa samochodu">
+                <cellValueFactory>
+                    <PropertyValueFactory property="klasa" />
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+      </TableView>
+      <GridPane>
+        <columnConstraints>
+          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="1.0" prefWidth="20.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="button2" mnemonicParsing="false" onAction="#wybierz" prefHeight="29.0" prefWidth="125.0" text="Kup z salonu" GridPane.columnIndex="2">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#zamow" prefHeight="29.0" prefWidth="121.0" text="Złóż Zamówienie">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+        <Button fx:id="secondaryButton" alignment="CENTER" contentDisplay="CENTER" onAction="#switchToPrimary" prefHeight="29.0" prefWidth="97.0" text="Wróć">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

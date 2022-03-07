@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D8516E3D-A95F-D913-185A-108CAAEA7965" containerWithKeyObject="A5A0D525-610F-20FF-BAF8-0BA7048C468E" localFKIndex="EC83A6CB-5C83-3E1C-3520-1B34DF58A463" name="Oferta_sal_Katalog_poj_FK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>78AF2C18-277D-0E36-8AD8-E3122B34E623</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<referredTableLongName>Katalog_poj</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D2F1E058-4746-5816-B930-84B611AB3B83</referredTableID>
+<keyObject>1A0715A3-74CD-94C6-5E26-170C1F2F0F27</keyObject>
+<referredKeyID>1A0715A3-74CD-94C6-5E26-170C1F2F0F27</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_poj</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

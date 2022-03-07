@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="549.0" prefWidth="946.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PrimaryController">
+   <children>
+      <GridPane>
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="460.0" minWidth="4.0" prefWidth="8.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="796.0" minWidth="10.0" prefWidth="483.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="796.0" minWidth="10.0" prefWidth="123.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="796.0" minWidth="10.0" prefWidth="189.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="477.0" minWidth="10.0" prefWidth="151.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="35.0" prefWidth="215.0" text="Katalog pojadów" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#wyloguj" prefHeight="31.0" prefWidth="112.0" text="Wyloguj" textAlignment="RIGHT" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Label fx:id="login" alignment="CENTER" prefHeight="30.0" prefWidth="180.0" text="Label" textAlignment="RIGHT" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#zamowienia" text="Moje konto" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <FlowPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <TableView fx:id="tableView" prefHeight="369.0" prefWidth="913.0">
+              <columns>
+                  <TableColumn prefWidth="99.0" text="Id">
+                  <cellValueFactory>
+                      <PropertyValueFactory property="id_poj" />
+                  </cellValueFactory>
+                  </TableColumn>
+                <TableColumn prefWidth="245.0" text="Marka">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="marka" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn prefWidth="280.0" text="Model">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="model" />
+                    </cellValueFactory>
+                </TableColumn>
+                  <TableColumn prefWidth="270.0" text="Rok produkcji">
+                      <cellValueFactory>
+                          <PropertyValueFactory property="rok_produkcji" />
+                      </cellValueFactory>
+                  </TableColumn>
+              </columns>
+            </TableView>
+         </children>
+      </FlowPane>
+      <Button fx:id="primaryButton" onAction="#wybierz" text="Wybierz" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

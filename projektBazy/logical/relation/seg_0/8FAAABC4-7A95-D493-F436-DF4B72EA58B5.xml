@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Wersja_silnika_w_salonie" directorySegmentName="seg_0" id="8FAAABC4-7A95-D493-F436-DF4B72EA58B5">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:21:23 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="1C92233C-D8F6-1916-41F2-9C0C501EC305" value="true"/>
+</engineerTo>
+<sourcePk>1CA68362-1EF6-E7FA-7CB5-8BC48CD56232</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0ED4FDE8-1690-B495-8D95-FFBA05BAB053</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>28A10366-E48C-7AEF-3E3E-977C89D50421</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

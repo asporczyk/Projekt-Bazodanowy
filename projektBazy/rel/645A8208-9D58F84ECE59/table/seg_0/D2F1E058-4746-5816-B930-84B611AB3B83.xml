@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2F1E058-4746-5816-B930-84B611AB3B83" name="Katalog_poj">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>D75313B5-28BF-1BF1-F3F2-5F10A87CA6B5</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_poj" id="2D494443-1318-BCD4-901C-4AD5058A008E">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>2DC36771-03A6-6AB0-6EA2-C25F0FAD1524</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marka" id="5542CA22-11C1-6653-1157-892A24E6B0E7">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>9996802B-6FE0-0452-337E-DE326A386185</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Model" id="FC3D73B6-DA6D-2977-738F-34DD576B1C45">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>5AB45D75-850E-0275-FDD1-8C51538856EC</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rok_produkcji" id="80F07C78-4E3B-AA44-E25E-E6F653238C37">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>F70CFC74-AAEA-08C5-3630-7DC526D11163</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A0715A3-74CD-94C6-5E26-170C1F2F0F27" name="Katalog_poj_PK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>8850166A-B63F-A749-2CF3-43E2BE3AB86B</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D494443-1318-BCD4-901C-4AD5058A008E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4786DE5-584E-754E-F639-E08739186227" name="Katalog_poj__IDX">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:57:55 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D494443-1318-BCD4-901C-4AD5058A008E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95C07347-2EB9-5627-F5BA-835A8D8B9CEE" name="Katalog_poj__IDXv1">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:57:55 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5542CA22-11C1-6653-1157-892A24E6B0E7"/>
+<colUsage columnID="FC3D73B6-DA6D-2977-738F-34DD576B1C45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

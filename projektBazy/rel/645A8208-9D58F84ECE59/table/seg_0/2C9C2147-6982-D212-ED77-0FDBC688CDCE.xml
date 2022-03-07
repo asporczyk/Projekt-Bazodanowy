@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C9C2147-6982-D212-ED77-0FDBC688CDCE" name="Zamowienia_zr">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>2F993FA4-8D21-D7D3-C060-34C7DE2AA861</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_zam_zr" id="6BD5DD30-B8AB-2CE5-5E75-897CEC7BE11D">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>50097A5B-8098-3AFF-ADB5-05F62CBE1260</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zamowienia_Id_zam" id="C8C55EAA-D66C-477E-0CF9-616CBC1C0F0C">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>A7BC633A-AC97-1719-A833-DB733065AB82</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9238B757-4992-78E8-8FCC-F118E5AA6C6E" referredColumn="831FF186-58F0-A776-DDC3-F0B773DE569C"/>
+</associations>
+</Column>
+<Column name="Zamowienia_Klienci_Id_kli" id="5F941548-FE42-DBB7-6DE7-944F142A7134">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>CC290AFF-4395-A1FD-0EA2-193067680B75</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9238B757-4992-78E8-8FCC-F118E5AA6C6E" referredColumn="5FE721BD-8EBC-AE81-6853-42338451E71F"/>
+</associations>
+</Column>
+<Column name="Cena_zamowienia" id="AC968655-F7E4-5B2B-4E1C-F8283842AB08">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>0915AABC-7FDE-B860-5AC2-95E866BA6B2B</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_zrealizowania" id="3BD6C55D-FA68-CEF2-1118-2AEE0CEF6671">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>2708D082-92DC-1C3B-1A80-295C8D7521B2</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE53A267-E382-30BA-AD81-F5A59A15596F" name="Zamowienia_zr_PK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>8CD765A6-E263-CEA6-CD68-DD7FC66F97C4</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD5DD30-B8AB-2CE5-5E75-897CEC7BE11D"/>
+<colUsage columnID="C8C55EAA-D66C-477E-0CF9-616CBC1C0F0C"/>
+<colUsage columnID="5F941548-FE42-DBB7-6DE7-944F142A7134"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDE83585-2BB1-E300-38BE-DB064391EAB9" name="Zamowienia_zr__IDX">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:59:02 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD5DD30-B8AB-2CE5-5E75-897CEC7BE11D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4180C24B-2817-CAA1-11F9-AC3D48FDBC7C" name="Zamowienia_zr_Zamowienia_FK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-05-22 15:56:07 UTC</createdTime>
+<generatorID>245C01BC-DD5A-89EB-9E01-C85CA481A2F8</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8C55EAA-D66C-477E-0CF9-616CBC1C0F0C"/>
+<colUsage columnID="5F941548-FE42-DBB7-6DE7-944F142A7134"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

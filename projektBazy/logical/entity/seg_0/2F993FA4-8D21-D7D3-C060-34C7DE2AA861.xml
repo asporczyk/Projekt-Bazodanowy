@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F993FA4-8D21-D7D3-C060-34C7DE2AA861" name="Zamowienia_zr">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:00:54 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="1C92233C-D8F6-1916-41F2-9C0C501EC305" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_zam_zr" id="50097A5B-8098-3AFF-ADB5-05F62CBE1260">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:01:05 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="1C92233C-D8F6-1916-41F2-9C0C501EC305" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_zam" id="A7BC633A-AC97-1719-A833-DB733065AB82">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:26:54 UTC</createdTime>
+<generatorID>245C01BC-DD5A-89EB-9E01-C85CA481A2F8</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="1C92233C-D8F6-1916-41F2-9C0C501EC305" value="true"/>
+</engineerTo>
+<referedAttribute>8C663B1A-81E3-6392-0BFA-F4F92290B2D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_kli" id="CC290AFF-4395-A1FD-0EA2-193067680B75">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:26:54 UTC</createdTime>
+<generatorID>245C01BC-DD5A-89EB-9E01-C85CA481A2F8</generatorID>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="1C92233C-D8F6-1916-41F2-9C0C501EC305" value="true"/>
+</engineerTo>
+<referedAttribute>C1D67B9A-5C26-C7EF-32EA-D64B931BDE4E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena_zamowienia" id="0915AABC-7FDE-B860-5AC2-95E866BA6B2B">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:37:13 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="1C92233C-D8F6-1916-41F2-9C0C501EC305" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_zrealizowania" id="2708D082-92DC-1C3B-1A80-295C8D7521B2">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:01:57 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="1C92233C-D8F6-1916-41F2-9C0C501EC305" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8CD765A6-E263-CEA6-CD68-DD7FC66F97C4" name="Zamowienia_zrealizowane PK">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:01:52 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="1C92233C-D8F6-1916-41F2-9C0C501EC305" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>50097A5B-8098-3AFF-ADB5-05F62CBE1260</attributeRef>
+<attributeRef>A7BC633A-AC97-1719-A833-DB733065AB82</attributeRef>
+<attributeRef>CC290AFF-4395-A1FD-0EA2-193067680B75</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

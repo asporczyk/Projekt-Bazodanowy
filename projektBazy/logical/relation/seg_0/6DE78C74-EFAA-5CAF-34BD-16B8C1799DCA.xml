@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Kupione_poj" directorySegmentName="seg_0" id="6DE78C74-EFAA-5CAF-34BD-16B8C1799DCA">
+<createdBy>Biolog</createdBy>
+<createdTime>2021-04-06 12:39:28 UTC</createdTime>
+<ownerDesignName>projektBazodanowyV3</ownerDesignName>
+<engineerTo>
+<item key="1C92233C-D8F6-1916-41F2-9C0C501EC305" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7A25B435-C021-8819-BF16-39BFB837BF39</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>28A10366-E48C-7AEF-3E3E-977C89D50421</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
